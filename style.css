@@ -1,0 +1,74 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 50%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: auto;
+  background-color: #f06058;
+  text-align: center;
+}
+main h1:nth-of-type(1) {
+  font-size: 7em;
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main p {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+main p:nth-of-type(2) {
+  display: inline;
+}
+main img {
+  display: block;
+  width: 600px;
+  height: 380px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+main #welcome {
+  font-size: 3em;
+  display: inline;
+  padding-left: 20px;
+}
+main div {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+main div label {
+  font-size: 2.5em;
+  padding-top: 10px;
+  font-weight: bold;
+}
+main div label select {
+  font-size: 1.1em;
+}
+main button {
+  margin-top: 30px;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #222222;
+  color: #fcf9fa;
+  font-size: 2.5em;
+}
+main p:nth-of-type(3) {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+main .btn-blue {
+  transform: scale(1.4, 1.4);
+  background-color: #0c8fad;
+  color: #222222;
+}/*# sourceMappingURL=style.css.map */
